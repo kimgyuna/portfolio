@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .text-animation {
+        font-size: 24px;
+        animation: colorChange 3s infinite; /* 애니메이션 이름, 시간, 반복 */
+      }
+
+      @keyframes colorChange {
+        0% {
+          color: red;
+        }
+        50% {
+          color: blue;
+        }
+        100% {
+          color: green;
+        }
+      }
+    </style>
+
+    <p class="text-animation">텍스트 색상이 변하는 애니메이션입니다!</p>
+  </body>
+</html>
